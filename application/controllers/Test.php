@@ -10,6 +10,7 @@ class Test extends CI_Controller {
 		$this->Title = 'Test menu';
 		$this->Menu = array(
 			array('text'=>'test','link'=>'#'),
+			array('text'=>'Test Datatable with Bootstrap 3','link'=>'datatable'),
 			array('text'=>'Test Set CI Session','link'=>'test_session/set_session'),
 			array('text'=>'Test Get CI Session','link'=>'test_session/get_session'),
 			array('text'=>'Destroy CI Session','link'=>'test_session/destroy')
